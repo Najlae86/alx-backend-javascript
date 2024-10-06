@@ -1,5 +1,5 @@
 export default class Currency
-  constructor(String code,String name){
+  constructor(code, name){
     this._name=name;
     this._code=code;
   }
