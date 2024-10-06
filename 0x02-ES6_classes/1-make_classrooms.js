@@ -1,0 +1,4 @@
+import ClassRoom from './0-classroom.js'
+export default class initializeRooms(){
+  return [new ClassRoom(19), new ClassRoom(20), new ClassRoom(34)];
+}
